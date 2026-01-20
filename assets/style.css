@@ -19,7 +19,7 @@ body {
 }
 
 .main-wrapper {
-  background-image: url(../assets/images/new-bg-6.jpg);
+  background-image: url(../assets/images/new-bg-5.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,7 @@ body {
 .profile-details .quote-text {
   position: absolute;
   top: 50%;
-  right: -350px; /* adjust spacing from card edge */
+  right: -300px; /* adjust spacing from card edge */
   transform: translateY(-50%);
   z-index: 10;
 }
