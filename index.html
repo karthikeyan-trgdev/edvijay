@@ -3,216 +3,260 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Executive Director of Chandramari Group</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <link rel="icon" type="image/x-icon" href="assets/images/cmg-logo.png" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/cmg-logo.png"
+      type="image/x-icon"
+    />
+    <title>Dr. Vijay Chandru - Executive Director</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Unbounded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css"
     />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="main-wrapper">
+    <div class="blury"></div>
+    <canvas class="connecting-dots"></canvas>
+    <div id="cursor" class="cursor">
+      <div class="ring">
+        <div></div>
+      </div>
+      <div class="ring">
+        <div></div>
+      </div>
+    </div>
+    <!--================ [ Loader Start ] ================-->
+    <div class="loader-mask">
+      <div class="loader"></div>
+    </div>
+    <!--================ [ Loader Exit ] ================-->
+
+    <div id="header-main" data-header>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6" style="width: 50%">
-            <div class="profile-details">
-              <div class="image" data-aos="fade-right" data-aos-duration="1000">
-                <img src="assets/images/dr_vijay.JPG" alt="" />
-                <div class="content">
-                  <h1>Dr. Vijay Chandru</h1>
-                  <h5><span>Executive Director</span> - Chandramari Group</h5>
-                  <p class="profile-text">
-                    Dr. Vijay Chandru is a doctor turned Executive Director at
-                    Top Rock Group, a multi-vertical organization spanning
-                    interiors, hospitality, and education. He specializes in
-                    building businesses from the ground up and scaling them with
-                    strong operational foundations. His journey began in
-                    interior fit-out, where he mastered execution and systems
-                    thinking. He later led the zero-to-one creation of
-                    Chandramari International School. With no brand, team, or
-                    roadmap, he built a fully functional institution driven by
-                    trust and performance. Today, the school continues to grow
-                    with robust systems and strong parent confidence. Dr.
-                    Chandru oversees group strategy while guiding leaders across
-                    all verticals. He approaches business like a
-                    doctor—diagnosing problems and prescribing scalable
-                    solutions. His work focuses on sectors that impact everyday
-                    life: education, food, innovation, and lifestyle. He is
-                    currently focused on scaling Top Rock Group and creating
-                    long-term value across its portfolio.
-                  </p>
-                  <div style="display: flex; gap: 10px; align-items: center">
-                    <h6 style="margin-bottom: 0px">Get in touch :</h6>
-                    <div class="social-icons">
-                      <a href="mailto:vijay@toprockinteriors.com"
-                        ><i class="fa-solid fa-envelope"></i
-                      ></a>
-                      <a href="tel:+918098990278"
-                        ><i class="fa-solid fa-square-phone"></i
-                      ></a>
-                      <a target="_blank"
-                        href="https://www.linkedin.com/in/dr-vijay-chandru-941b3524b/"
-                        ><i class="fa-brands fa-square-linkedin"></i
-                      ></a>
-                      <a target="_blank" href="https://wa.me/918098990278"
-                        ><i class="fa-brands fa-square-whatsapp"></i
-                      ></a>
-                    </div>
+        <header class="header" id="header" data-header>
+          <div class="menu-icon">
+            <a href="javascript:void(0)"
+              ><i class="ri-menu-3-line menu-option"></i
+            ></a>
+            <a href="javascript:void(0)"
+              ><i class="ri-close-line close-menu"></i
+            ></a>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <nav class="main-header-menu">
+      <div class="container">
+        <ul class="tabs-ul-menu">
+          <li class="tabs-li">
+            <a href="index.html" class="list-link">
+              <div class="imag-list">
+                <i class="fa-regular fa-house"></i>
+              </div>
+              <p class="name-tab">Home</p>
+            </a>
+          </li>
+          <li class="tabs-li">
+            <a href="about.html" class="list-link">
+              <div class="imag-list">
+                <i class="fa-regular fa-user"></i>
+              </div>
+              <p class="name-tab">About us</p>
+            </a>
+          </li>
+          <li class="tabs-li">
+            <a href="companies.html" class="list-link">
+              <div class="imag-list">
+                <i class="fa-regular fa-building"></i>
+              </div>
+              <p class="name-tab">Companies</p>
+            </a>
+          </li>
+        </ul>
+        <div class="social-icon-main">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/thekavichandru"
+            class="social-design-main"
+          >
+            <img
+              src="assets/images/instagram-icon.png"
+              alt=""
+              style="width: 20px"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="mailto:kavi@toprockinteriors.com"
+            class="social-design-main"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a
+            target="_blank"
+            href="tel:+971504768847"
+            class="social-design-main"
+          >
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://wa.me/971504768847" class="social-design-main">
+            <img
+              src="assets/images/whatsapp-icon.png"
+              alt=""
+              style="width: 18px"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/kavi-chandru-688723239/?originalSubdomain=ae"
+            class="social-design-main"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!--================ [ Header section Exit ] ================-->
+    <!--================ [ Hero section Start ] ================-->
+    <div class="hero" id="hero">
+      <div class="container">
+        <nav class="main-menu">
+          <div class="container">
+            <ul class="tabs-ul animate-section-very">
+              <li class="tabs-li active" data-tab="Home">
+                <a href="index.html" class="list-link">
+                  <div class="imag-list">
+                    <i class="fa-regular fa-house"></i>
                   </div>
-                  <!-- <button>More About us</button> -->
-                </div>
-              </div>
-              <div class="quote-text">
-                <h1>VISIONARY</h1>
-              </div>
-            </div>
+                  <p class="name-tab">Home</p>
+                </a>
+              </li>
+              <li class="tabs-li">
+                <a href="about.html" class="list-link">
+                  <div class="imag-list">
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+                  <p class="name-tab">About</p>
+                </a>
+              </li>
+              <li class="tabs-li">
+                <a href="companies.html" class="list-link">
+                  <div class="imag-list">
+                    <i class="fa-regular fa-building"></i>
+                  </div>
+                  <p class="name-tab">Companies</p>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div class="col-lg-6" style="width: 50%">
-            <div class="verticals-animations">
-              <div class="center-logo">
-                <img src="assets/images/cmg-logo.png" alt="" />
+        </nav>
+        <div class="main-hero animate-section">
+          <div class="bag-image">
+            <div class="row very-menu">
+              <div class="col-xxl-8 col-lg-8 col-md-6 col-12 very-left">
+                <div class="main-padding">
+                  <div class="white-round">
+                    <img
+                      src="assets/images/white-round-1.png"
+                      alt="white-round"
+                    />
+                  </div>
+                  <div class="title-section-name new-font">Hey, I'm</div>
+                  <h1 class="title-section-word">Dr. Vijay Chandru</h1>
+                  <div class="type">
+                    <p class="hybrid">
+                      Executive Director of <br /><span class="text"></span>
+                    </p>
+                  </div>
+                  <div class="disc">
+                    Dr. Vijay is a doctor-turned-executive leader and
+                    entrepreneur, serving as Executive Director of Top Rock
+                    Group, where he drives strategy and execution across
+                    interiors, hospitality, and education.</div>
+                </div>
+                <!-- <div class="round-shape">
+                  <img src="assets/images/hero/round.svg" alt="First-imags" />
+                </div> -->
               </div>
-
-              <div class="circle circle-one">
-                <div class="mini-circle">
-                  <a href="https://www.toprockinteriors.com" target="_blank">
-                    <img src="assets/images/tri_logo.png" alt="" />
-                  </a>
-                </div>
+              <div class="shape white-round back-image-shape-1">
+                <img src="assets/images/new-shape.png" alt="" />
               </div>
-
-              <div class="circle circle-two">
-                <div class="mini-circle">
-                  <a href="https://cmis.ac.in/" target="_blank">
-                    <img src="assets/images/cmis-logo.png" alt="" />
-                  </a>
-                </div>
-                <div class="mini-circle">
-                  <a href="https://www.laboffuture.com/" target="_blank">
-                    <img src="assets/images/lof_logo.png" alt="" />
-                  </a>
-                </div>
-              </div>
-
-              <div class="circle circle-three">
-                <div class="mini-circle">
-                  <a
-                    href="https://www.jehangirsrestaurant.com/"
-                    target="_blank"
-                  >
-                    <img src="assets/images/jahangir-logo.png" alt="" />
-                  </a>
-                </div>
-                <div class="mini-circle">
-                  <a href="https://www.vbworldrestaurant.com/" target="_blank">
-                    <img src="assets/images/vb-world-logo.png" alt="" />
-                  </a>
-                </div>
-                <div class="mini-circle">
-                  <a href="https://zordaarrestaurants.com/" target="_blank">
-                    <img src="assets/images/zordar-logo.png" alt="" />
-                  </a>
-                </div>
-                <div class="mini-circle">
-                  <a href="https://malakaltawouk.com/" target="_blank">
-                    <img src="assets/images/tawouk-logo.png" alt="" />
-                  </a>
-                </div>
-              </div>
-
-              <div class="circle circle-four">
-                <div class="mini-circle">
-                  <a href="https://www.toprockglobal.com/" target="_blank">
-                    <img src="assets/images/trg-logo.png" alt="" />
-                  </a>
-                </div>
-                <div class="mini-circle">
-                  <a href="comming-soon.html">
-                    <img src="assets/images/Podusu-logo.png" alt="" />
-                  </a>
-                </div>
-                <div class="mini-circle">
-                  <a href="https://kuppanna.com/" target="_blank">
-                    <img src="assets/images/kupp.png" alt="" />
-                  </a>
-                </div>
+              <div class="shape-2 white-round back-image-shape-2">
+                <img src="assets/images/new-shape.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!--================ [ Hero section Exit ] ================-->
+    <!--================ [ Footer section Start ] ================-->
+    <footer class="footer animate-section">
+      <div class="container">
+        <div class="contain">
+          <p class="copy-right">
+            © 2026. <a href="https://www.toprockglobal.com">TopRock Global</a>.
+            All rights reserved.
+          </p>
+          <div class="social-icon">
+            <a href="mailto:vijay@toprockinteriors.com" class="social-design">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+971568861353" class="social-design">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://wa.me/971568861353" class="social-design">
+              <img
+                src="assets/images/whatsapp-icon.png"
+                alt=""
+                style="width: 18px"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dr-vijay-chandru-941b3524b"
+              class="social-design"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================ [ Footer section Exit ] ================-->
+    <!--================ [Jquery File] ================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <!--================ [vanila tilt File] ================-->
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <!--================ [three min File] ================-->
+    <script src="assets/js/three.min.js"></script>
+    <!--================ [gsap File] ================-->
+    <script src="assets/js/gsap.min.js"></script>
+    <!--================ [Bootstrap File] ================-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <!--================ [magnific popup tilt File] ================-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/player.js"></script>
+    <!--================ [Slick file] ================-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--================ [script File] ================-->
+    <script src="assets/js/script.js"></script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-      AOS.init();
-    </script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const textElement = document.querySelector(".profile-text");
-        const fullText = textElement.innerText;
-        const words = fullText.split(" ");
-        const modalBody = document.getElementById("modalProfileContent");
-
-        if (words.length > 30) {
-          const shortText = words.slice(0, 30).join(" ");
-
-          textElement.innerHTML = `
-        ${shortText}...
-        <span
-          class="read-more"
-          style="color:#fff; cursor:pointer;text-decoration:underline"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModalCenter"
-        >
-          Read more
-        </span>
-      `;
-
-          modalBody.innerText = fullText;
-        }
-      });
-    </script>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModalCenter"
-      tabindex="-1"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalCenterTitle">
-              About Dr. Vijay Chandru
-            </h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-lg-12">
-                <div id="modalProfileContent"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
